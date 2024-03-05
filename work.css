@@ -376,3 +376,21 @@ nav ul li a img:hover {
     margin-bottom: 10px;
 }
 
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #00000000;
+}
+.header img {
+    width: 30px; /* Adjust the size as per your requirement */
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.header span {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
