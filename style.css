@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding-left: 20px;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.container {
+    text-align: left;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px white;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#runtime {
+    font-size: 0.8em;
+}
+
+.sidebar {
+    position: fixed;
+    top: 250px;
+    right: -1px;
+    height: calc(100vh - 50px);
+    width: 100px; /* Adjust width as needed */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px; /* Adjust padding as needed */
+    box-sizing: border-box;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a img {
+    width: 30px; /* Adjust icon size */
+    opacity: 0.5; /* Adjust opacity */
+}
+
+.nav-toggler, .theme-toggle {
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+
+
+nav ul li a img {
+    width: 20px; /* Adjust icon size */
+    opacity: 0.7; /* Adjust opacity */
+    transition: box-shadow 0.3s ease, transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+nav ul li a img:hover {
+    box-shadow: 0 0 30px white; /* Brighter aura glow effect */
+    transform: scale(1.2); /* Increase size by 20% */
+    opacity: 0.8; /* Increase opacity */
+}
+
+
+

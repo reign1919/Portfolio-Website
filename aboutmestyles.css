@@ -1,0 +1,192 @@
+.boxed-text {
+    border: 1px solid white; /* Thin white border */
+    padding: 20px; /* Add padding for spacing */
+    margin-top: 20px; /* Adjust as needed */
+    border-radius: 10px; /* Add border-radius for curved corners */
+}
+
+.boxed-text p {
+    margin: 0; /* Remove default paragraph margin */
+    color: white; /* Set text color */
+    font-size: 1.1em; /* Adjust font size as needed */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding-left: 20px;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.container {
+    text-align: left;
+}
+
+@keyframes caffeine-animation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+#caffeine-text {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: scaleX(1.2);
+    animation: caffeine-animation 2s ease-in-out infinite;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#runtime {
+    font-size: 0.8em;
+}
+
+.sidebar {
+    position: fixed;
+    top: 250px;
+    right: -1px;
+    height: calc(100vh - 50px);
+    width: 100px; /* Adjust width as needed */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px; /* Adjust padding as needed */
+    box-sizing: border-box;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a img {
+    width: 30px; /* Adjust icon size */
+    opacity: 0.5; /* Adjust opacity */
+}
+
+.nav-toggler, .theme-toggle {
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+
+
+nav ul li a img {
+    width: 20px; /* Adjust icon size */
+    opacity: 0.7; /* Adjust opacity */
+    transition: box-shadow 0.3s ease, transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+nav ul li a img:hover {
+    box-shadow: 0 0 30px white; /* Brighter aura glow effect */
+    transform: scale(1.2); /* Increase size by 20% */
+    opacity: 0.8; /* Increase opacity */
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-left: 20px;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.container {
+    text-align: left;
+    max-width: 600px;
+}
+
+
+
+p {
+    font-size: 1.2em;
+}
+
+.boxed-text {
+    border: 1px solid white; /* Thin white border */
+    padding: 20px; /* Add padding for spacing */
+    margin-top: 20px; /* Adjust as needed */
+    border-radius: 10px; /* Add border-radius for curved corners */
+}
+
+.boxed-text p {
+    margin: 0; /* Remove default paragraph margin */
+    color: white; /* Set text color */
+    font-size: 1.1em; /* Adjust font size as needed */
+}
+
+.icon-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.icon-links a img {
+    width: 30px; /* Adjust icon size */
+    opacity: 0.5; /* Adjust opacity */
+    transition: box-shadow 0.3s ease, transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+.icon-links a img:hover {
+    box-shadow: 0 0 30px white; /* Brighter aura glow effect */
+    transform: scale(1.2); /* Increase size by 20% */
+    opacity: 0.8; /* Increase opacity */
+}
+
+#caffeine-text {
+    opacity: 0; /* Hide text initially */
+    animation: fadeInAnimation 1s ease forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0; /* Start with opacity 0 */
+    }
+    100% {
+        opacity: 1; /* Fade in to full opacity */
+    }
+}
+
+.boxed-text:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Change background color on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work-Reign's Portfolio</title>
+    <link rel="stylesheet" href="work.css">
+</head>
+<body>
+    <style>
+     .aura {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    width: 50px;
+    height: 50px;
+    pointer-events: none; /* Prevent cursor interaction with aura */
+    animation: pulse 1s infinite alternate; /* Pulse animation */
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+    </style>
+    <div class="container">
+        <div class="work-logo-links">
+            <div class="link-box">
+                <a href="https://replit.com/@TRISHAANSAHA">
+                    <img src="https://i.pinimg.com/originals/66/1b/a6/661ba608d114c50f47407bf0b352d7da.png">
+                    <button class="button">Replit</button>
+                </a>
+            </div>
+            <div class="link-box">
+                <a href="https://github.com/reign1919">
+                    <img src="https://res.cloudinary.com/teepublic/image/private/s--BCb9vTIK--/t_Preview/b_rgb:191919,c_limit,f_auto,h_630,q_90,w_630/v1574105261/production/designs/6784319_0.jpg">
+                    <button class="button">GitHub</button>
+                </a>
+            </div>
+            <div class="link-box">
+                <a href="https://on.soundcloud.com/MXt1y">
+                    <img src="https://i.pinimg.com/originals/45/fa/9c/45fa9ca59351b207d13b7dfb20a5913f.jpg">
+                    <button class="button">SoundCloud</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-right">
+        <p><strong>Check out Reign on the IOT</strong></p>
+    </div>
+
+    <div class="text-container">
+        <p>See my closed-sourced projects on Replit</p>
+        <p>Check out this website as a Repository on Github</p>
+        <p>Listen to my music on SoundCloud</p>
+    </div>
+    
+
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="home.html"><img src="https://static.vecteezy.com/system/resources/previews/000/627/764/original/vector-home-icon-symbol-sign.jpg" alt="Home icon"></a></li>
+                <li><a href="about.html"><img src="https://i.pinimg.com/originals/15/6f/bb/156fbb01d3ec2f7ea869e06bf34351dc.jpg" alt="About me icon"></a></li>
+                <li><a href="work.html"><img src="https://thumbs.dreamstime.com/b/worker-flat-symbol-isolated-black-background-simple-vector-logo-worker-flat-symbol-isolated-black-background-161186604.jpg" alt="Work icon"></a></li>
+                <li><a href="contact.html"><img src="https://i.pinimg.com/474x/03/36/7d/03367dbb6e53ad382a34a4fb442925f1.jpg" alt="Contact me icon"></a></li>
+            </ul>
+        </nav>
+    </div>
+    
+
+    <script src="aura.js"></script>
+
+</body>
+</html>

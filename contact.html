@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Reign's Portfolio</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <style>
+        .aura {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    width: 50px;
+    height: 50px;
+    pointer-events: none; /* Prevent cursor interaction with aura */
+    animation: pulse 1s infinite alternate; /* Pulse animation */
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+    </style>
+    <div class="container">
+        <div class="content">
+            <h1>How do you like your coffee?</h1>
+            <div class="contact-links">
+                <a href="mailto:sahatrishaan1910@gmail.com?subject=About%20your%20portfolio%20website">E-mail</a>
+                <a href="https://ig.me/m/on.god_cobra">Instagram</a>
+                <a href="https://discord.com/invite/YYMpfFbU">Discord</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="home.html"><img src="https://static.vecteezy.com/system/resources/previews/000/627/764/original/vector-home-icon-symbol-sign.jpg" alt="Home icon"></a></li>
+                <li><a href="about.html"><img src="https://i.pinimg.com/originals/15/6f/bb/156fbb01d3ec2f7ea869e06bf34351dc.jpg" alt="About me icon"></a></li>
+                <li><a href="work.html"><img src="https://thumbs.dreamstime.com/b/worker-flat-symbol-isolated-black-background-simple-vector-logo-worker-flat-symbol-isolated-black-background-161186604.jpg" alt="Work icon"></a></li>
+                <li><a href="contact.html"><img src="https://i.pinimg.com/474x/03/36/7d/03367dbb6e53ad382a34a4fb442925f1.jpg" alt="Contact me icon"></a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="aura.js"></script>
+</body>
+</html>
