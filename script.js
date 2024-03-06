@@ -33,3 +33,11 @@ document.addEventListener("DOMContentLoaded", function() {
         aboutSection.scrollIntoView({ behavior: 'smooth' });
     });
 });
+
+// Wait for the page to fully load
+window.addEventListener('load', function () {
+    // Hide the loader
+    document.querySelector('.loader-container').style.display = 'none';
+    // Show the content container
+    document.querySelector('.content-container').style.display = 'block';
+});
