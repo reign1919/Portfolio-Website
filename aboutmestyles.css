@@ -208,3 +208,47 @@ p {
     font-size: 16px;
     font-weight: bold;
 }
+
+/* Add this at the end of your CSS file */
+.live-button {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 9999;
+    transition: all 0.3s ease;
+}
+
+.live-button:hover .live {
+    color: red;
+    animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(5px);
+    }
+    50% {
+        transform: translateX(-5px);
+    }
+    75% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.live {
+    color: inherit;
+}
